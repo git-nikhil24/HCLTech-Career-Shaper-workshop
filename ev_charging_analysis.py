@@ -297,3 +297,66 @@ class ChargingSession:
     def __str__(self):
         return (f"ChargingSession(ID={self.session_id}, Station={self.station}, "
                 f"Energy={self.energy:.2f} kWh)")
+    def class_and_function_demo(df):
+    """Demonstrates FR-3.1, FR-3.2 and FR-3.6."""
+    heading("12. TUPLE, SET, DICTIONARY, FUNCTION AND CLASS DEMO")
+    print("Fixed charger types (tuple):", CHARGER_TYPES)
+    unknown = set(df["Charger_Type"].unique()) - set(CHARGER_TYPES)
+    print("Charger types in data not in tuple:", unknown if unknown else "None")
+
+    unique_locations = set(df["Station_Location"].unique())            # FR-3.1
+    print(f"\nUnique station locations (set) - {len(unique_locations)}:")
+    for loc in sorted(unique_locations):
+        print("  -", loc)
+
+    station_counts = station_dictionary(df)                            # FR-3.2
+    print("\nStation-wise session counts (dictionary):")
+    print(station_counts)
+
+    busiest = max(station_counts, key=station_counts.get)
+    print(f"\nAverage energy per session at {busiest}: "
+          f"{avg_energy_for_station(df, busiest):.2f} kWh")
+
+    first = df.iloc[0]                                                 # FR-3.6
+    session = ChargingSession(first["Session_ID"], first["Station_ID"], first["Energy_kWh"])
+    print("\nObject created from first record:", session)
+    print("Attribute access ->", session.session_id, "|", session.station, "|",
+          f"{session.energy:.2f} kWh")
+
+
+def generate_recommendations(df, stations, charger_comp, peak_hour, busiest_day,
+                             n_out, upper_fence):
+    """FR-3.7: five data-driven recommendations [OUT-5]. Text is built from the results."""
+    heading("13. OPERATIONAL RECOMMENDATIONS  [OUT-5]")
+    top = stations.iloc[0]
+    low = stations.sort_values("Sessions").iloc[0]
+    slowest = charger_comp["Avg_Duration_Mins"].idxmax()
+    fastest = charger_comp["Avg_Duration_Mins"].idxmin()
+    long_by_type = df.loc[df["Is_Long_Session"], "Charger_Type"].value_counts()
+    long_type = long_by_type.index[0] if len(long_by_type) else slowest
+
+    recs = [
+        f"Add capacity or a reservation system at {top['Station_ID']} ({top['Station_Location']}); "
+        f"it is the busiest station with {int(top['Sessions'])} sessions and "
+        f"{top['Total_Energy_kWh']:,.0f} kWh delivered.",
+
+        f"Review the low-usage station {low['Station_ID']} ({low['Station_Location']}, "
+        f"{int(low['Sessions'])} sessions): improve visibility/signage or redirect demand "
+        f"from busier stations nearby.",
+
+        f"Use time-of-day pricing or app notifications around the peak hour "
+        f"({peak_hour:02d}:00) and keep staff/maintenance away from that slot; "
+        f"expect highest demand on {busiest_day}s.",
+
+        f"Charger mix: {slowest} sessions are the longest on average "
+        f"({charger_comp.loc[slowest, 'Avg_Duration_Mins']:.0f} min) versus "
+        f"{fastest} ({charger_comp.loc[fastest, 'Avg_Duration_Mins']:.0f} min). "
+        f"Direct time-sensitive drivers to {fastest} and add more fast chargers where queues form.",
+
+        f"{n_out} sessions exceeded {upper_fence:.0f} minutes (IQR fence), most often on {long_type}. "
+        f"Introduce idle/overstay fees or 'move your vehicle' alerts after charging completes "
+        f"to free bays sooner.",
+    ]
+    for i, r in enumerate(recs, 1):
+        print(f"{i}. {r}\n")
+    return recs
