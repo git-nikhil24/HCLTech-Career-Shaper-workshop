@@ -105,7 +105,7 @@ def clean_data(df):
     cleaned = df.copy()
     log = []
 
-# Rule 1 - duplicates
+    # Rule 1 - duplicates
     before = len(cleaned)
     cleaned = cleaned.drop_duplicates(subset="Session_ID", keep="first").reset_index(drop=True)
     log.append(f"Removed {before - len(cleaned)} duplicate Session_ID rows (kept first).")
@@ -156,6 +156,7 @@ def overall_summary(df):
     print(f"Average charging duration        : {avg_duration:.2f} minutes")
     print(f"Average energy per session       : {avg_energy:.2f} kWh")
     return total_sessions, total_energy, avg_duration, avg_energy
+
 
 def station_ranking(df):
     """FR-2.5: rank by session count and total energy."""
@@ -248,6 +249,7 @@ def numpy_statistics(df):
     print("(Mean > median indicates a right-skewed distribution driven by long sessions.)")
     return durations, mean_d, median_d, p90_d
 
+
 def detect_outliers(df, durations):
     """FR-3.4: IQR method. Outliers are flagged and reported, NOT deleted (SRS 3.4)."""
     heading("10. UNUSUALLY LONG SESSIONS (IQR METHOD)  [OUT-4]")
@@ -297,7 +299,9 @@ class ChargingSession:
     def __str__(self):
         return (f"ChargingSession(ID={self.session_id}, Station={self.station}, "
                 f"Energy={self.energy:.2f} kWh)")
-    def class_and_function_demo(df):
+
+
+def class_and_function_demo(df):
     """Demonstrates FR-3.1, FR-3.2 and FR-3.6."""
     heading("12. TUPLE, SET, DICTIONARY, FUNCTION AND CLASS DEMO")
     print("Fixed charger types (tuple):", CHARGER_TYPES)
@@ -360,6 +364,7 @@ def generate_recommendations(df, stations, charger_comp, peak_hour, busiest_day,
     for i, r in enumerate(recs, 1):
         print(f"{i}. {r}\n")
     return recs
+
 
 # --------------------------------------------------------------------------
 # OPTIONAL CHARTS
