@@ -1,0 +1,504 @@
+Session_ID,Station_ID,Station_Location,Charger_Type,Energy_kWh,Charging_Duration_Mins,Charging_Start_Time
+EVS0001,ST007,"High Street, Faridabad",AC Level 2,15.42,200.8,2026-02-14 05:21:00
+EVS0002,ST006,"University Campus, Noida",DC Fast,34.7,62.8,2026-03-02 16:10:00
+EVS0003,ST007,"High Street, Faridabad",DC Ultra-Fast,41.17,28.2,2026-01-31 15:17:00
+EVS0004,ST002,"Metro Plaza, Noida",DC Fast,38.97,30.2,2026-01-27 21:20:00
+EVS0005,ST001,"Central Mall, Delhi",DC Ultra-Fast,15.34,15.8,2026-03-07 22:13:00
+EVS0006,ST002,"Metro Plaza, Noida",DC Fast,,44.0,2026-01-10 14:15:00
+EVS0007,ST005,"Airport Road, Delhi",DC Fast,71.21,63.3,2026-02-26 20:24:00
+EVS0008,ST006,"University Campus, Noida",AC Level 2,19.66,106.0,2026-01-09 06:17:00
+EVS0009,ST002,"Metro Plaza, Noida",AC Level 2,6.36,243.3,2026-01-28 19:30:00
+EVS0010,ST006,"University Campus, Noida",DC Fast,21.62,40.9,2026-01-15 16:29:00
+EVS0011,ST008,"Green Park, Delhi",DC Fast,20.65,50.2,2026-03-31 15:25:00
+EVS0012,ST003,"Tech Park, Gurugram",AC Level 2,22.9,105.7,2026-01-08 22:13:00
+EVS0013,ST002,"Metro Plaza, Noida",DC Fast,23.92,74.0,2026-02-02 18:10:00
+EVS0014,ST002,"Metro Plaza, Noida",DC Fast,31.25,41.1,2026-03-14 08:49:00
+EVS0015,ST003,"Tech Park, Gurugram",DC Fast,46.12,46.6,2026-01-03 21:39:00
+EVS0016,ST006,"University Campus, Noida",AC Level 2,15.2,213.5,2026-02-17 20:15:00
+EVS0017,ST007,"High Street, Faridabad",DC Fast,28.25,38.5,2026-01-31 12:25:00
+EVS0018,ST006,"University Campus, Noida",DC Fast,34.18,31.8,2026-03-29 21:58:00
+EVS0019,ST006,"University Campus, Noida",AC Level 2,11.86,186.6,2026-01-22 23:32:00
+EVS0020,ST008,"Green Park, Delhi",AC Level 2,28.08,177.2,2026-03-06 10:30:00
+EVS0021,ST002,"Metro Plaza, Noida",AC Level 2,9.89,98.7,2026-01-01 10:50:00
+EVS0022,ST003,"Tech Park, Gurugram",DC Ultra-Fast,53.79,41.1,2026-03-27 19:39:00
+EVS0023,ST007,"High Street, Faridabad",AC Level 2,21.96,79.8,2026-03-27 10:29:00
+EVS0024,ST008,"Green Park, Delhi",AC Level 2,15.6,71.6,2026-01-31 08:49:00
+EVS0025,ST001,"Central Mall, Delhi",AC Level 2,29.21,150.5,2026-02-24 21:55:00
+EVS0026,ST008,"Green Park, Delhi",AC Level 2,15.65,131.9,2026-02-28 08:01:00
+EVS0027,ST005,"Airport Road, Delhi",DC Fast,46.03,65.1,2026-02-10 20:49:00
+EVS0028,ST004,"City Centre, Ghaziabad",AC Level 2,18.45,173.3,2026-03-31 08:54:00
+EVS0029,ST005,"Airport Road, Delhi",AC Level 2,15.54,131.7,2026-01-18 21:44:00
+EVS0030,ST005,"Airport Road, Delhi",AC Level 2,19.52,171.8,2026-03-10 23:29:00
+EVS0031,ST007,"High Street, Faridabad",AC Level 2,3.0,93.6,2026-01-26 18:39:00
+EVS0032,ST005,"Airport Road, Delhi",AC Level 2,22.62,202.5,2026-01-09 16:23:00
+EVS0033,ST001,"Central Mall, Delhi",DC Ultra-Fast,44.58,28.5,2026-03-28 19:52:00
+EVS0034,ST002,"Metro Plaza, Noida",AC Level 2,20.67,60.4,2026-02-26 14:15:00
+EVS0035,ST001,"Central Mall, Delhi",AC Level 2,20.85,143.3,2026-01-11 21:52:00
+EVS0036,ST008,"Green Park, Delhi",AC Level 2,3.92,174.3,2026-03-28 07:21:00
+EVS0037,ST003,"Tech Park, Gurugram",AC Level 2,13.65,181.3,2026-02-15 17:22:00
+EVS0038,ST002,"Metro Plaza, Noida",AC Level 2,30.97,509.0,2026-02-17 14:25:00
+EVS0039,ST007,"High Street, Faridabad",DC Fast,37.77,57.6,2026-03-24 08:17:00
+EVS0040,ST005,"Airport Road, Delhi",DC Fast,25.04,20.9,2026-02-18 04:57:00
+EVS0041,ST006,"University Campus, Noida",AC Level 2,21.21,131.0,2026-01-08 14:47:00
+EVS0042,ST006,"University Campus, Noida",AC Level 2,21.21,66.1,2026-01-03 11:35:00
+EVS0043,ST003,"Tech Park, Gurugram",DC Fast,15.69,52.2,2026-02-02 17:19:00
+EVS0044,ST008,"Green Park, Delhi",AC Level 2,29.45,89.6,2026-03-31 20:27:00
+EVS0045,ST007,"High Street, Faridabad",DC Fast,53.79,89.1,2026-01-20 08:50:00
+EVS0046,ST005,"Airport Road, Delhi",AC Level 2,11.5,159.3,2026-01-04 13:43:00
+EVS0047,ST006,"University Campus, Noida",DC Fast,40.29,46.3,2026-01-10 07:24:00
+EVS0048,ST003,"Tech Park, Gurugram",DC Ultra-Fast,47.12,49.8,2026-03-06 18:45:00
+EVS0049,ST005,"Airport Road, Delhi",AC Level 2,3.0,138.7,2026-03-17 23:22:00
+EVS0050,ST005,"Airport Road, Delhi",DC Ultra-Fast,41.01,43.1,2026-01-14 15:04:00
+EVS0051,ST007,"High Street, Faridabad",AC Level 2,14.65,98.9,2026-02-28 07:28:00
+EVS0052,ST007,"High Street, Faridabad",DC Fast,34.33,88.0,2026-02-07 22:05:00
+EVS0053,ST005,"Airport Road, Delhi",DC Ultra-Fast,35.59,30.0,2026-02-14 19:31:00
+EVS0054,ST005,"Airport Road, Delhi",DC Fast,31.91,53.3,2026-02-21 20:42:00
+EVS0055,ST003,"Tech Park, Gurugram",DC Fast,39.21,51.6,2026-02-08 21:48:00
+EVS0056,ST001,"Central Mall, Delhi",AC Level 2,19.74,226.7,2026-03-16 14:19:00
+EVS0057,ST008,"Green Park, Delhi",DC Fast,,52.6,2026-03-29 21:18:00
+EVS0058,ST007,"High Street, Faridabad",AC Level 2,15.29,195.0,2026-03-12 17:12:00
+EVS0059,ST004,"City Centre, Ghaziabad",DC Fast,34.83,48.1,2026-03-09 17:25:00
+EVS0060,ST008,"Green Park, Delhi",AC Level 2,13.37,145.6,2026-01-05 22:06:00
+EVS0061,ST005,"Airport Road, Delhi",DC Fast,16.38,23.5,2026-01-07 21:14:00
+EVS0062,ST008,"Green Park, Delhi",DC Ultra-Fast,51.32,30.4,2026-01-02 23:57:00
+EVS0063,ST006,"University Campus, Noida",AC Level 2,21.26,138.5,2026-01-10 03:37:00
+EVS0064,ST003,"Tech Park, Gurugram",DC Ultra-Fast,24.59,54.4,2026-02-25 05:22:00
+EVS0065,ST002,"Metro Plaza, Noida",DC Ultra-Fast,54.03,30.2,2026-03-24 13:15:00
+EVS0066,ST003,"Tech Park, Gurugram",DC Ultra-Fast,35.03,23.3,2026-01-27 18:16:00
+EVS0067,ST002,"Metro Plaza, Noida",DC Fast,40.25,46.5,2026-02-25 10:33:00
+EVS0068,ST003,"Tech Park, Gurugram",DC Fast,38.53,54.4,2026-03-29 12:51:00
+EVS0069,ST004,"City Centre, Ghaziabad",AC Level 2,23.7,215.7,2026-02-18 16:52:00
+EVS0070,ST004,"City Centre, Ghaziabad",AC Level 2,8.56,139.9,2026-01-28 16:37:00
+EVS0071,ST003,"Tech Park, Gurugram",AC Level 2,23.71,178.3,2026-01-17 17:34:00
+EVS0072,ST002,"Metro Plaza, Noida",AC Level 2,13.14,142.8,2026-01-04 01:09:00
+EVS0073,ST008,"Green Park, Delhi",AC Level 2,20.8,138.3,2026-01-19 08:43:00
+EVS0074,ST001,"Central Mall, Delhi",DC Fast,31.37,50.7,2026-03-02 08:33:00
+EVS0075,ST002,"Metro Plaza, Noida",DC Ultra-Fast,56.39,32.8,2026-01-03 13:54:00
+EVS0076,ST005,"Airport Road, Delhi",AC Level 2,21.7,224.3,2026-03-03 23:28:00
+EVS0077,ST002,"Metro Plaza, Noida",DC Fast,47.17,71.9,2026-02-21 06:31:00
+EVS0078,ST001,"Central Mall, Delhi",DC Fast,21.82,59.7,2026-01-19 06:39:00
+EVS0079,ST002,"Metro Plaza, Noida",DC Fast,21.17,19.2,2026-02-01 15:21:00
+EVS0080,ST006,"University Campus, Noida",DC Fast,31.8,40.7,2026-02-10 07:20:00
+EVS0081,ST005,"Airport Road, Delhi",AC Level 2,21.58,186.6,2026-02-07 19:42:00
+EVS0082,ST002,"Metro Plaza, Noida",DC Ultra-Fast,87.92,43.3,2026-02-19 15:26:00
+EVS0083,ST007,"High Street, Faridabad",AC Level 2,20.0,110.9,2026-01-28 21:56:00
+EVS0084,ST002,"Metro Plaza, Noida",DC Fast,33.6,66.7,2026-01-08 02:39:00
+EVS0085,ST001,"Central Mall, Delhi",DC Fast,46.23,31.4,2026-02-27 08:02:00
+EVS0086,ST005,"Airport Road, Delhi",DC Ultra-Fast,67.47,28.5,2026-01-03 11:52:00
+EVS0087,ST008,"Green Park, Delhi",AC Level 2,15.63,145.4,2026-01-24 03:16:00
+EVS0088,ST006,"University Campus, Noida",AC Level 2,17.32,125.8,2026-03-13 19:40:00
+EVS0089,ST006,"University Campus, Noida",DC Fast,30.67,28.8,2026-01-14 06:29:00
+EVS0090,ST005,"Airport Road, Delhi",DC Ultra-Fast,41.7,48.5,2026-03-26 10:21:00
+EVS0091,ST006,"University Campus, Noida",AC Level 2,17.45,106.9,2026-02-06 10:19:00
+EVS0092,ST005,"Airport Road, Delhi",DC Fast,36.22,69.8,2026-01-14 08:05:00
+EVS0093,ST003,"Tech Park, Gurugram",DC Ultra-Fast,57.33,30.9,2026-01-25 17:31:00
+EVS0094,ST004,"City Centre, Ghaziabad",AC Level 2,22.55,111.2,2026-02-27 00:46:00
+EVS0095,ST003,"Tech Park, Gurugram",DC Fast,19.32,75.0,2026-03-06 17:15:00
+EVS0096,ST005,"Airport Road, Delhi",AC Level 2,19.88,142.6,2026-01-24 07:32:00
+EVS0097,ST008,"Green Park, Delhi",AC Level 2,14.43,197.1,2026-03-15 21:33:00
+EVS0098,ST001,"Central Mall, Delhi",DC Fast,48.56,70.5,2026-03-16 08:41:00
+EVS0099,ST006,"University Campus, Noida",AC Level 2,18.8,116.3,2026-01-28 20:55:00
+EVS0100,ST008,"Green Park, Delhi",DC Ultra-Fast,48.32,31.7,2026-02-04 16:37:00
+EVS0101,ST003,"Tech Park, Gurugram",DC Fast,54.1,58.9,2026-01-16 18:55:00
+EVS0102,ST004,"City Centre, Ghaziabad",AC Level 2,27.19,138.3,2026-03-27 10:47:00
+EVS0103,ST002,"Metro Plaza, Noida",AC Level 2,3.0,101.5,2026-01-16 15:49:00
+EVS0104,ST008,"Green Park, Delhi",AC Level 2,17.66,178.4,2026-03-19 13:54:00
+EVS0105,ST002,"Metro Plaza, Noida",AC Level 2,20.2,107.1,2026-01-06 09:36:00
+EVS0106,ST008,"Green Park, Delhi",DC Fast,38.0,48.9,2026-03-16 11:15:00
+EVS0107,ST004,"City Centre, Ghaziabad",AC Level 2,14.95,163.4,2026-02-14 09:37:00
+EVS0108,ST005,"Airport Road, Delhi",AC Level 2,19.76,162.8,2026-01-16 20:57:00
+EVS0109,ST007,"High Street, Faridabad",DC Fast,40.93,51.0,2026-03-06 18:49:00
+EVS0110,ST006,"University Campus, Noida",DC Ultra-Fast,63.05,34.4,2026-02-07 21:18:00
+EVS0111,ST003,"Tech Park, Gurugram",DC Fast,20.09,41.1,2026-01-09 14:36:00
+EVS0112,ST001,"Central Mall, Delhi",DC Ultra-Fast,24.87,31.9,2026-03-14 08:38:00
+EVS0113,ST006,"University Campus, Noida",AC Level 2,15.45,187.6,2026-03-31 21:45:00
+EVS0114,ST001,"Central Mall, Delhi",DC Ultra-Fast,61.0,36.1,2026-03-13 19:46:00
+EVS0115,ST002,"Metro Plaza, Noida",DC Ultra-Fast,60.76,56.0,2026-01-15 20:00:00
+EVS0116,ST008,"Green Park, Delhi",DC Fast,28.11,36.5,2026-02-21 15:33:00
+EVS0117,ST001,"Central Mall, Delhi",AC Level 2,11.74,144.0,2026-03-14 19:47:00
+EVS0118,ST006,"University Campus, Noida",DC Fast,15.32,19.4,2026-01-23 13:02:00
+EVS0119,ST005,"Airport Road, Delhi",DC Fast,7.47,55.0,2026-02-17 05:20:00
+EVS0120,ST003,"Tech Park, Gurugram",DC Ultra-Fast,31.95,496.0,2026-01-31 02:02:00
+EVS0121,ST002,"Metro Plaza, Noida",AC Level 2,24.49,147.1,2026-01-13 06:30:00
+EVS0122,ST004,"City Centre, Ghaziabad",AC Level 2,10.19,179.0,2026-01-23 15:42:00
+EVS0123,ST002,"Metro Plaza, Noida",AC Level 2,25.0,52.9,2026-03-06 18:50:00
+EVS0124,ST002,"Metro Plaza, Noida",DC Fast,40.55,52.7,2026-03-20 16:02:00
+EVS0125,ST007,"High Street, Faridabad",DC Fast,33.32,24.2,2026-03-01 15:12:00
+EVS0126,ST003,"Tech Park, Gurugram",AC Level 2,12.18,132.3,2026-03-31 08:19:00
+EVS0127,ST004,"City Centre, Ghaziabad",AC Level 2,18.53,139.8,2026-03-21 13:06:00
+EVS0128,ST001,"Central Mall, Delhi",AC Level 2,20.37,67.6,2026-01-04 13:25:00
+EVS0129,ST001,"Central Mall, Delhi",DC Fast,18.91,35.4,2026-01-15 11:58:00
+EVS0130,ST005,"Airport Road, Delhi",DC Fast,47.5,49.4,2026-01-10 23:23:00
+EVS0131,ST007,"High Street, Faridabad",DC Fast,35.28,46.3,2026-03-02 10:13:00
+EVS0132,ST006,"University Campus, Noida",AC Level 2,17.95,197.4,2026-02-19 18:08:00
+EVS0133,ST001,"Central Mall, Delhi",AC Level 2,9.57,154.1,2026-01-21 02:31:00
+EVS0134,ST008,"Green Park, Delhi",AC Level 2,28.54,58.8,2026-03-14 18:49:00
+EVS0135,ST005,"Airport Road, Delhi",DC Fast,40.14,49.8,2026-03-11 06:40:00
+EVS0136,ST006,"University Campus, Noida",DC Fast,42.0,62.0,2026-03-05 18:06:00
+EVS0137,ST008,"Green Park, Delhi",AC Level 2,10.44,154.7,2026-03-28 05:17:00
+EVS0138,ST001,"Central Mall, Delhi",AC Level 2,15.1,200.9,2026-02-26 13:44:00
+EVS0139,ST003,"Tech Park, Gurugram",DC Fast,30.84,55.7,2026-02-14 21:09:00
+EVS0140,ST003,"Tech Park, Gurugram",DC Ultra-Fast,62.07,16.0,2026-02-23 19:40:00
+EVS0141,ST001,"Central Mall, Delhi",DC Ultra-Fast,46.82,19.6,2026-01-21 07:52:00
+EVS0142,ST005,"Airport Road, Delhi",DC Ultra-Fast,22.56,34.0,2026-03-14 14:05:00
+EVS0143,ST003,"Tech Park, Gurugram",DC Fast,47.92,49.7,2026-03-19 18:51:00
+EVS0144,ST008,"Green Park, Delhi",AC Level 2,17.71,120.1,2026-03-11 21:15:00
+EVS0145,ST006,"University Campus, Noida",AC Level 2,16.47,,2026-02-09 07:59:00
+EVS0146,ST001,"Central Mall, Delhi",AC Level 2,17.42,147.0,2026-03-29 19:25:00
+EVS0147,ST001,"Central Mall, Delhi",AC Level 2,11.29,110.0,2026-03-30 20:59:00
+EVS0148,ST005,"Airport Road, Delhi",DC Fast,54.26,16.3,2026-01-30 18:52:00
+EVS0149,ST001,"Central Mall, Delhi",DC Fast,34.93,39.2,2026-03-09 15:57:00
+EVS0150,ST006,"University Campus, Noida",AC Level 2,15.97,163.3,2026-02-19 14:37:00
+EVS0151,ST006,"University Campus, Noida",DC Fast,44.1,16.0,2026-01-13 02:44:00
+EVS0152,ST008,"Green Park, Delhi",AC Level 2,22.61,125.1,2026-03-16 03:45:00
+EVS0153,ST005,"Airport Road, Delhi",AC Level 2,14.28,205.7,2026-01-27 08:10:00
+EVS0154,ST005,"Airport Road, Delhi",AC Level 2,14.63,97.1,2026-02-15 20:48:00
+EVS0155,ST004,"City Centre, Ghaziabad",DC Fast,23.12,55.3,2026-03-24 17:10:00
+EVS0156,ST008,"Green Park, Delhi",AC Level 2,10.04,166.4,2026-01-09 09:26:00
+EVS0157,ST007,"High Street, Faridabad",AC Level 2,9.52,131.8,2026-01-03 16:07:00
+EVS0158,ST006,"University Campus, Noida",DC Ultra-Fast,56.41,41.1,2026-02-06 14:13:00
+EVS0159,ST003,"Tech Park, Gurugram",DC Fast,48.03,27.4,2026-02-23 15:36:00
+EVS0160,ST003,"Tech Park, Gurugram",DC Fast,19.58,62.5,2026-01-20 03:53:00
+EVS0161,ST001,"Central Mall, Delhi",AC Level 2,23.94,117.7,2026-02-04 22:10:00
+EVS0162,ST008,"Green Park, Delhi",DC Fast,33.45,61.9,2026-02-02 19:23:00
+EVS0163,ST006,"University Campus, Noida",AC Level 2,24.29,159.6,2026-03-27 12:08:00
+EVS0164,ST001,"Central Mall, Delhi",DC Ultra-Fast,49.05,31.7,2026-01-21 13:08:00
+EVS0165,ST002,"Metro Plaza, Noida",DC Fast,42.35,29.5,2026-02-16 18:40:00
+EVS0166,ST003,"Tech Park, Gurugram",DC Fast,30.14,45.1,2026-02-02 13:51:00
+EVS0167,ST002,"Metro Plaza, Noida",AC Level 2,4.88,78.4,2026-01-19 01:36:00
+EVS0168,ST001,"Central Mall, Delhi",DC Fast,47.66,67.7,2026-01-17 21:05:00
+EVS0169,ST001,"Central Mall, Delhi",DC Fast,60.21,48.0,2026-01-30 11:00:00
+EVS0170,ST003,"Tech Park, Gurugram",DC Ultra-Fast,34.47,15.9,2026-03-15 15:33:00
+EVS0171,ST003,"Tech Park, Gurugram",AC Level 2,12.87,161.2,2026-01-30 12:17:00
+EVS0172,ST001,"Central Mall, Delhi",DC Fast,31.25,39.3,2026-01-13 20:35:00
+EVS0173,ST004,"City Centre, Ghaziabad",AC Level 2,15.12,166.2,2026-02-22 23:43:00
+EVS0174,ST007,"High Street, Faridabad",AC Level 2,11.51,115.3,2026-01-06 10:34:00
+EVS0175,ST005,"Airport Road, Delhi",AC Level 2,18.79,185.0,2026-02-27 15:30:00
+EVS0176,ST001,"Central Mall, Delhi",DC Fast,36.65,75.0,2026-01-06 08:03:00
+EVS0177,ST002,"Metro Plaza, Noida",DC Ultra-Fast,73.48,,2026-01-15 10:44:00
+EVS0178,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,28.96,27.5,2026-01-13 10:38:00
+EVS0179,ST006,"University Campus, Noida",DC Fast,31.43,25.8,2026-03-04 11:53:00
+EVS0180,ST008,"Green Park, Delhi",DC Ultra-Fast,24.07,35.4,2026-03-30 07:54:00
+EVS0181,ST008,"Green Park, Delhi",DC Ultra-Fast,63.95,,2026-02-09 12:15:00
+EVS0182,ST002,"Metro Plaza, Noida",DC Fast,28.91,54.9,2026-02-18 01:02:00
+EVS0183,ST006,"University Campus, Noida",DC Fast,50.01,31.1,2026-02-24 16:56:00
+EVS0184,ST008,"Green Park, Delhi",DC Fast,19.13,45.2,2026-02-01 19:09:00
+EVS0185,ST003,"Tech Park, Gurugram",DC Ultra-Fast,37.43,50.3,2026-02-03 19:17:00
+EVS0186,ST005,"Airport Road, Delhi",DC Fast,29.39,40.7,2026-01-30 06:51:00
+EVS0187,ST002,"Metro Plaza, Noida",DC Fast,64.46,46.2,2026-01-27 11:19:00
+EVS0188,ST007,"High Street, Faridabad",AC Level 2,12.52,206.9,2026-01-17 19:19:00
+EVS0189,ST006,"University Campus, Noida",DC Fast,48.82,36.5,2026-03-25 08:59:00
+EVS0190,ST007,"High Street, Faridabad",DC Fast,30.79,59.5,2026-03-06 13:29:00
+EVS0191,ST003,"Tech Park, Gurugram",DC Fast,39.34,43.3,2026-03-26 09:00:00
+EVS0192,ST008,"Green Park, Delhi",DC Fast,21.31,58.7,2026-02-16 18:17:00
+EVS0193,ST008,"Green Park, Delhi",DC Ultra-Fast,53.06,25.5,2026-03-28 02:28:00
+EVS0194,ST001,"Central Mall, Delhi",DC Fast,32.39,34.6,2026-02-03 03:19:00
+EVS0195,ST008,"Green Park, Delhi",DC Ultra-Fast,60.48,,2026-03-26 21:00:00
+EVS0196,ST006,"University Campus, Noida",AC Level 2,25.02,127.8,2026-03-03 13:25:00
+EVS0197,ST003,"Tech Park, Gurugram",AC Level 2,24.91,191.2,2026-01-20 12:20:00
+EVS0198,ST006,"University Campus, Noida",AC Level 2,12.1,91.1,2026-02-25 15:03:00
+EVS0199,ST005,"Airport Road, Delhi",AC Level 2,24.32,165.8,2026-01-07 17:15:00
+EVS0200,ST003,"Tech Park, Gurugram",DC Fast,46.2,52.8,2026-02-01 20:45:00
+EVS0201,ST008,"Green Park, Delhi",DC Fast,36.06,56.3,2026-02-27 16:25:00
+EVS0202,ST006,"University Campus, Noida",DC Fast,45.05,57.5,2026-02-18 09:01:00
+EVS0203,ST004,"City Centre, Ghaziabad",AC Level 2,14.15,170.0,2026-01-11 21:51:00
+EVS0204,ST002,"Metro Plaza, Noida",AC Level 2,12.44,166.3,2026-01-27 18:35:00
+EVS0205,ST001,"Central Mall, Delhi",AC Level 2,13.15,211.7,2026-02-14 19:41:00
+EVS0206,ST003,"Tech Park, Gurugram",AC Level 2,21.6,166.0,2026-01-16 06:09:00
+EVS0207,ST004,"City Centre, Ghaziabad",AC Level 2,14.37,124.8,2026-01-09 01:47:00
+EVS0208,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,105.38,35.9,2026-01-02 05:10:00
+EVS0209,ST007,"High Street, Faridabad",DC Ultra-Fast,67.37,24.6,2026-03-08 00:53:00
+EVS0210,ST001,"Central Mall, Delhi",AC Level 2,20.76,,2026-02-21 11:44:00
+EVS0211,ST001,"Central Mall, Delhi",DC Ultra-Fast,25.44,18.5,2026-02-15 08:25:00
+EVS0212,ST001,"Central Mall, Delhi",AC Level 2,24.02,64.8,2026-01-05 20:01:00
+EVS0213,ST006,"University Campus, Noida",AC Level 2,19.58,210.4,2026-02-05 20:45:00
+EVS0214,ST007,"High Street, Faridabad",DC Fast,39.26,32.7,2026-03-29 15:27:00
+EVS0215,ST005,"Airport Road, Delhi",AC Level 2,18.84,98.6,2026-03-03 13:34:00
+EVS0216,ST007,"High Street, Faridabad",DC Fast,59.69,41.2,2026-01-07 16:10:00
+EVS0217,ST008,"Green Park, Delhi",AC Level 2,22.82,129.6,2026-03-19 19:53:00
+EVS0218,ST002,"Metro Plaza, Noida",AC Level 2,11.23,136.8,2026-02-15 13:24:00
+EVS0219,ST005,"Airport Road, Delhi",DC Fast,48.52,70.4,2026-02-21 22:52:00
+EVS0220,ST007,"High Street, Faridabad",AC Level 2,15.9,110.9,2026-01-31 15:40:00
+EVS0221,ST004,"City Centre, Ghaziabad",DC Fast,51.22,47.8,2026-01-17 18:50:00
+EVS0222,ST002,"Metro Plaza, Noida",DC Ultra-Fast,48.19,44.4,2026-02-26 11:59:00
+EVS0223,ST007,"High Street, Faridabad",AC Level 2,19.61,152.6,2026-01-28 22:38:00
+EVS0224,ST003,"Tech Park, Gurugram",AC Level 2,9.89,117.8,2026-03-27 18:43:00
+EVS0225,ST001,"Central Mall, Delhi",DC Fast,36.77,37.1,2026-01-14 11:45:00
+EVS0226,ST006,"University Campus, Noida",DC Fast,20.08,77.3,2026-02-22 12:39:00
+EVS0227,ST007,"High Street, Faridabad",AC Level 2,17.52,163.1,2026-01-22 11:03:00
+EVS0228,ST008,"Green Park, Delhi",AC Level 2,22.46,117.0,2026-02-16 08:36:00
+EVS0229,ST008,"Green Park, Delhi",AC Level 2,18.01,58.7,2026-01-06 14:50:00
+EVS0230,ST008,"Green Park, Delhi",DC Fast,33.06,52.5,2026-01-02 07:44:00
+EVS0231,ST008,"Green Park, Delhi",DC Fast,46.73,34.0,2026-01-16 20:28:00
+EVS0232,ST002,"Metro Plaza, Noida",AC Level 2,18.62,126.4,2026-01-17 08:14:00
+EVS0233,ST001,"Central Mall, Delhi",AC Level 2,24.46,208.4,2026-02-28 19:07:00
+EVS0234,ST002,"Metro Plaza, Noida",AC Level 2,7.71,177.4,2026-03-10 21:13:00
+EVS0235,ST003,"Tech Park, Gurugram",AC Level 2,12.86,227.6,2026-02-27 16:44:00
+EVS0236,ST004,"City Centre, Ghaziabad",DC Fast,34.25,49.3,2026-03-12 21:27:00
+EVS0237,ST006,"University Campus, Noida",AC Level 2,12.34,92.3,2026-02-05 09:08:00
+EVS0238,ST008,"Green Park, Delhi",DC Fast,24.21,40.1,2026-02-19 19:44:00
+EVS0239,ST002,"Metro Plaza, Noida",DC Fast,40.67,58.8,2026-02-26 19:49:00
+EVS0240,ST003,"Tech Park, Gurugram",DC Fast,55.6,64.9,2026-03-25 21:00:00
+EVS0241,ST002,"Metro Plaza, Noida",DC Fast,28.29,37.4,2026-03-15 18:43:00
+EVS0242,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,48.49,13.6,2026-03-23 13:42:00
+EVS0243,ST006,"University Campus, Noida",AC Level 2,18.62,99.5,2026-03-11 17:00:00
+EVS0244,ST002,"Metro Plaza, Noida",AC Level 2,21.97,109.7,2026-03-25 18:29:00
+EVS0245,ST008,"Green Park, Delhi",DC Fast,25.81,62.3,2026-02-18 22:50:00
+EVS0246,ST003,"Tech Park, Gurugram",AC Level 2,23.39,166.1,2026-03-16 13:13:00
+EVS0247,ST005,"Airport Road, Delhi",AC Level 2,28.23,114.5,2026-01-23 12:56:00
+EVS0248,ST004,"City Centre, Ghaziabad",AC Level 2,19.78,152.5,2026-02-24 11:41:00
+EVS0249,ST004,"City Centre, Ghaziabad",DC Fast,14.83,26.4,2026-03-29 14:53:00
+EVS0250,ST007,"High Street, Faridabad",DC Fast,52.58,41.7,2026-01-07 08:40:00
+EVS0251,ST003,"Tech Park, Gurugram",DC Ultra-Fast,46.18,30.4,2026-03-27 01:02:00
+EVS0252,ST001,"Central Mall, Delhi",AC Level 2,18.01,167.5,2026-03-30 16:46:00
+EVS0253,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,8.0,13.7,2026-03-07 05:07:00
+EVS0254,ST004,"City Centre, Ghaziabad",AC Level 2,25.14,131.3,2026-03-02 15:11:00
+EVS0255,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,47.06,40.7,2026-02-07 08:21:00
+EVS0256,ST002,"Metro Plaza, Noida",DC Ultra-Fast,51.32,41.0,2026-01-23 13:12:00
+EVS0257,ST008,"Green Park, Delhi",AC Level 2,,184.6,2026-02-24 09:59:00
+EVS0258,ST007,"High Street, Faridabad",DC Fast,15.87,27.4,2026-01-09 08:00:00
+EVS0259,ST006,"University Campus, Noida",AC Level 2,17.37,123.8,2026-01-11 17:11:00
+EVS0260,ST006,"University Campus, Noida",AC Level 2,22.53,120.0,2026-01-02 11:01:00
+EVS0261,ST008,"Green Park, Delhi",DC Fast,25.14,42.2,2026-02-14 19:50:00
+EVS0262,ST007,"High Street, Faridabad",AC Level 2,24.81,217.1,2026-02-17 11:56:00
+EVS0263,ST001,"Central Mall, Delhi",AC Level 2,29.63,169.7,2026-02-21 17:20:00
+EVS0264,ST002,"Metro Plaza, Noida",DC Fast,39.42,77.1,2026-02-07 07:15:00
+EVS0265,ST008,"Green Park, Delhi",DC Fast,22.99,51.9,2026-02-23 01:26:00
+EVS0266,ST002,"Metro Plaza, Noida",AC Level 2,20.86,112.5,2026-02-22 08:40:00
+EVS0267,ST007,"High Street, Faridabad",DC Fast,44.95,26.0,2026-01-13 15:52:00
+EVS0268,ST001,"Central Mall, Delhi",AC Level 2,18.31,88.0,2026-02-19 08:24:00
+EVS0269,ST003,"Tech Park, Gurugram",DC Fast,35.76,61.0,2026-01-23 08:55:00
+EVS0270,ST004,"City Centre, Ghaziabad",AC Level 2,23.99,126.7,2026-03-08 18:50:00
+EVS0271,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,70.47,29.0,2026-01-09 14:28:00
+EVS0272,ST001,"Central Mall, Delhi",AC Level 2,34.4,134.9,2026-02-25 09:55:00
+EVS0273,ST002,"Metro Plaza, Noida",DC Ultra-Fast,11.77,36.4,2026-02-20 18:34:00
+EVS0274,ST007,"High Street, Faridabad",DC Fast,26.82,59.2,2026-02-28 20:43:00
+EVS0275,ST006,"University Campus, Noida",DC Fast,,46.9,2026-01-27 12:59:00
+EVS0276,ST005,"Airport Road, Delhi",AC Level 2,15.89,164.5,2026-02-11 14:54:00
+EVS0277,ST008,"Green Park, Delhi",AC Level 2,15.42,142.2,2026-02-05 10:26:00
+EVS0278,ST001,"Central Mall, Delhi",AC Level 2,18.17,219.4,2026-02-19 10:51:00
+EVS0279,ST002,"Metro Plaza, Noida",DC Fast,43.4,52.6,2026-01-29 16:00:00
+EVS0280,ST004,"City Centre, Ghaziabad",AC Level 2,16.74,73.0,2026-01-10 19:21:00
+EVS0281,ST002,"Metro Plaza, Noida",AC Level 2,12.76,105.8,2026-01-09 16:26:00
+EVS0282,ST003,"Tech Park, Gurugram",AC Level 2,20.53,158.5,2026-01-16 17:41:00
+EVS0283,ST002,"Metro Plaza, Noida",DC Fast,14.16,54.2,2026-01-18 10:33:00
+EVS0284,ST002,"Metro Plaza, Noida",AC Level 2,14.56,215.6,2026-03-31 21:40:00
+EVS0285,ST008,"Green Park, Delhi",DC Ultra-Fast,62.38,519.0,2026-01-01 19:08:00
+EVS0286,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,54.91,22.6,2026-03-22 17:37:00
+EVS0287,ST004,"City Centre, Ghaziabad",DC Fast,45.64,81.8,2026-03-12 22:23:00
+EVS0288,ST008,"Green Park, Delhi",DC Fast,46.86,65.7,2026-01-13 09:27:00
+EVS0289,ST001,"Central Mall, Delhi",DC Ultra-Fast,53.49,17.3,2026-03-26 06:43:00
+EVS0290,ST006,"University Campus, Noida",AC Level 2,15.56,116.1,2026-02-13 07:03:00
+EVS0291,ST004,"City Centre, Ghaziabad",DC Fast,,75.1,2026-02-06 19:55:00
+EVS0292,ST008,"Green Park, Delhi",AC Level 2,17.9,103.4,2026-02-24 18:55:00
+EVS0293,ST005,"Airport Road, Delhi",DC Ultra-Fast,34.6,25.3,2026-02-18 16:53:00
+EVS0294,ST003,"Tech Park, Gurugram",DC Fast,23.54,40.5,2026-01-03 14:03:00
+EVS0295,ST005,"Airport Road, Delhi",AC Level 2,12.24,169.2,2026-02-20 10:52:00
+EVS0296,ST003,"Tech Park, Gurugram",DC Fast,41.34,34.9,2026-02-24 15:39:00
+EVS0297,ST004,"City Centre, Ghaziabad",AC Level 2,3.0,217.0,2026-02-22 12:10:00
+EVS0298,ST007,"High Street, Faridabad",DC Ultra-Fast,56.22,33.5,2026-03-27 04:01:00
+EVS0299,ST007,"High Street, Faridabad",AC Level 2,19.81,196.3,2026-01-28 06:56:00
+EVS0300,ST002,"Metro Plaza, Noida",AC Level 2,22.02,177.8,2026-03-29 08:26:00
+EVS0301,ST004,"City Centre, Ghaziabad",AC Level 2,25.27,73.0,2026-01-14 07:17:00
+EVS0302,ST006,"University Campus, Noida",DC Ultra-Fast,43.24,38.2,2026-01-16 13:44:00
+EVS0303,ST007,"High Street, Faridabad",AC Level 2,25.23,206.3,2026-03-30 06:31:00
+EVS0304,ST003,"Tech Park, Gurugram",DC Ultra-Fast,41.61,51.1,2026-01-12 08:51:00
+EVS0305,ST002,"Metro Plaza, Noida",AC Level 2,12.78,150.4,2026-02-26 14:52:00
+EVS0306,ST007,"High Street, Faridabad",DC Ultra-Fast,27.65,53.8,2026-01-22 06:01:00
+EVS0307,ST008,"Green Park, Delhi",DC Ultra-Fast,54.17,41.0,2026-02-11 16:23:00
+EVS0308,ST002,"Metro Plaza, Noida",AC Level 2,18.73,99.4,2026-02-09 15:34:00
+EVS0309,ST007,"High Street, Faridabad",DC Fast,28.89,58.6,2026-03-02 08:46:00
+EVS0310,ST005,"Airport Road, Delhi",DC Ultra-Fast,48.27,18.3,2026-03-29 18:47:00
+EVS0311,ST005,"Airport Road, Delhi",AC Level 2,20.91,83.8,2026-03-27 09:36:00
+EVS0312,ST003,"Tech Park, Gurugram",AC Level 2,12.94,209.0,2026-01-29 14:05:00
+EVS0313,ST008,"Green Park, Delhi",AC Level 2,16.24,130.3,2026-01-08 22:33:00
+EVS0314,ST003,"Tech Park, Gurugram",DC Fast,35.55,41.2,2026-03-23 17:03:00
+EVS0315,ST003,"Tech Park, Gurugram",AC Level 2,14.79,186.6,2026-01-29 08:39:00
+EVS0316,ST003,"Tech Park, Gurugram",AC Level 2,12.19,127.9,2026-01-18 18:49:00
+EVS0317,ST005,"Airport Road, Delhi",AC Level 2,18.04,138.3,2026-03-07 22:07:00
+EVS0318,ST007,"High Street, Faridabad",AC Level 2,12.71,184.9,2026-02-06 21:37:00
+EVS0319,ST006,"University Campus, Noida",DC Fast,38.8,47.7,2026-01-28 07:27:00
+EVS0320,ST001,"Central Mall, Delhi",DC Fast,41.58,46.9,2026-01-08 11:56:00
+EVS0321,ST005,"Airport Road, Delhi",DC Ultra-Fast,65.02,31.7,2026-02-12 16:06:00
+EVS0322,ST005,"Airport Road, Delhi",DC Ultra-Fast,70.74,21.6,2026-02-21 18:23:00
+EVS0323,ST008,"Green Park, Delhi",AC Level 2,15.88,141.9,2026-02-24 21:20:00
+EVS0324,ST006,"University Campus, Noida",DC Fast,39.12,70.8,2026-02-01 08:46:00
+EVS0325,ST001,"Central Mall, Delhi",AC Level 2,12.52,111.2,2026-03-30 14:54:00
+EVS0326,ST002,"Metro Plaza, Noida",AC Level 2,21.62,166.1,2026-03-08 16:53:00
+EVS0327,ST007,"High Street, Faridabad",DC Fast,23.01,58.4,2026-02-10 18:40:00
+EVS0328,ST005,"Airport Road, Delhi",DC Ultra-Fast,11.0,58.2,2026-01-02 20:17:00
+EVS0329,ST005,"Airport Road, Delhi",DC Ultra-Fast,,15.9,2026-02-19 17:14:00
+EVS0330,ST007,"High Street, Faridabad",DC Fast,45.73,36.4,2026-01-17 16:26:00
+EVS0331,ST008,"Green Park, Delhi",AC Level 2,17.05,115.3,2026-01-14 17:28:00
+EVS0332,ST006,"University Campus, Noida",DC Fast,59.85,46.9,2026-01-21 20:41:00
+EVS0333,ST005,"Airport Road, Delhi",AC Level 2,10.84,138.9,2026-02-19 21:47:00
+EVS0334,ST004,"City Centre, Ghaziabad",AC Level 2,10.32,96.6,2026-02-22 11:54:00
+EVS0335,ST006,"University Campus, Noida",DC Fast,42.96,21.0,2026-02-28 19:12:00
+EVS0336,ST005,"Airport Road, Delhi",AC Level 2,18.62,171.7,2026-01-20 09:29:00
+EVS0337,ST006,"University Campus, Noida",AC Level 2,21.7,121.6,2026-02-22 12:26:00
+EVS0338,ST003,"Tech Park, Gurugram",AC Level 2,12.62,119.5,2026-01-05 18:14:00
+EVS0339,ST008,"Green Park, Delhi",AC Level 2,19.5,195.3,2026-02-28 21:12:00
+EVS0340,ST003,"Tech Park, Gurugram",AC Level 2,12.32,137.7,2026-03-21 19:11:00
+EVS0341,ST007,"High Street, Faridabad",AC Level 2,13.41,155.4,2026-02-01 17:11:00
+EVS0342,ST002,"Metro Plaza, Noida",AC Level 2,14.72,109.0,2026-03-12 13:39:00
+EVS0343,ST006,"University Campus, Noida",AC Level 2,16.46,142.4,2026-02-11 15:50:00
+EVS0344,ST004,"City Centre, Ghaziabad",DC Fast,28.46,55.2,2026-01-22 10:13:00
+EVS0345,ST004,"City Centre, Ghaziabad",DC Fast,21.34,60.6,2026-03-24 16:49:00
+EVS0346,ST006,"University Campus, Noida",AC Level 2,13.07,179.0,2026-02-25 17:20:00
+EVS0347,ST006,"University Campus, Noida",AC Level 2,8.78,97.9,2026-01-27 16:14:00
+EVS0348,ST003,"Tech Park, Gurugram",DC Ultra-Fast,39.93,,2026-03-13 13:15:00
+EVS0349,ST003,"Tech Park, Gurugram",AC Level 2,29.19,162.3,2026-03-05 09:34:00
+EVS0350,ST007,"High Street, Faridabad",DC Ultra-Fast,37.28,35.5,2026-02-03 18:56:00
+EVS0351,ST002,"Metro Plaza, Noida",DC Fast,32.19,67.4,2026-03-03 17:59:00
+EVS0352,ST002,"Metro Plaza, Noida",DC Fast,53.84,26.0,2026-03-14 21:01:00
+EVS0353,ST006,"University Campus, Noida",AC Level 2,11.49,117.8,2026-02-21 18:45:00
+EVS0354,ST001,"Central Mall, Delhi",AC Level 2,18.0,139.7,2026-01-20 16:19:00
+EVS0355,ST001,"Central Mall, Delhi",AC Level 2,14.65,153.0,2026-02-12 11:24:00
+EVS0356,ST003,"Tech Park, Gurugram",DC Fast,14.57,65.8,2026-01-06 00:28:00
+EVS0357,ST001,"Central Mall, Delhi",AC Level 2,14.87,134.5,2026-01-14 04:47:00
+EVS0358,ST005,"Airport Road, Delhi",DC Fast,36.23,42.2,2026-01-28 18:03:00
+EVS0359,ST004,"City Centre, Ghaziabad",AC Level 2,20.91,157.8,2026-03-16 16:46:00
+EVS0360,ST005,"Airport Road, Delhi",AC Level 2,17.48,115.1,2026-03-01 08:37:00
+EVS0361,ST005,"Airport Road, Delhi",AC Level 2,13.45,216.8,2026-03-10 10:48:00
+EVS0362,ST005,"Airport Road, Delhi",AC Level 2,6.28,73.6,2026-02-11 10:57:00
+EVS0363,ST004,"City Centre, Ghaziabad",AC Level 2,16.44,143.7,2026-01-25 10:30:00
+EVS0364,ST008,"Green Park, Delhi",DC Fast,26.82,33.0,2026-03-18 06:00:00
+EVS0365,ST002,"Metro Plaza, Noida",DC Fast,12.58,56.4,2026-01-06 16:18:00
+EVS0366,ST006,"University Campus, Noida",AC Level 2,21.2,162.9,2026-03-31 14:06:00
+EVS0367,ST004,"City Centre, Ghaziabad",AC Level 2,14.45,127.4,2026-02-18 16:47:00
+EVS0368,ST001,"Central Mall, Delhi",DC Fast,10.64,41.5,2026-01-02 12:54:00
+EVS0369,ST007,"High Street, Faridabad",DC Ultra-Fast,47.24,42.9,2026-01-19 16:04:00
+EVS0370,ST008,"Green Park, Delhi",AC Level 2,12.16,125.3,2026-03-10 15:04:00
+EVS0371,ST002,"Metro Plaza, Noida",DC Fast,23.98,64.3,2026-01-07 19:45:00
+EVS0372,ST003,"Tech Park, Gurugram",DC Fast,45.74,19.8,2026-03-08 16:29:00
+EVS0373,ST005,"Airport Road, Delhi",DC Ultra-Fast,50.35,26.0,2026-02-16 11:33:00
+EVS0374,ST008,"Green Park, Delhi",AC Level 2,5.67,129.0,2026-02-11 15:22:00
+EVS0375,ST008,"Green Park, Delhi",DC Fast,37.3,56.4,2026-02-20 08:41:00
+EVS0376,ST006,"University Campus, Noida",AC Level 2,29.71,85.1,2026-02-14 17:18:00
+EVS0377,ST007,"High Street, Faridabad",AC Level 2,16.62,78.3,2026-02-15 21:17:00
+EVS0378,ST006,"University Campus, Noida",DC Fast,32.12,90.4,2026-02-20 09:10:00
+EVS0379,ST007,"High Street, Faridabad",AC Level 2,28.33,190.6,2026-01-30 17:59:00
+EVS0380,ST005,"Airport Road, Delhi",DC Fast,43.69,20.0,2026-01-27 10:48:00
+EVS0381,ST006,"University Campus, Noida",DC Fast,29.73,52.9,2026-03-21 06:12:00
+EVS0382,ST006,"University Campus, Noida",AC Level 2,16.61,189.9,2026-01-23 16:08:00
+EVS0383,ST002,"Metro Plaza, Noida",DC Fast,21.65,43.7,2026-01-19 05:42:00
+EVS0384,ST004,"City Centre, Ghaziabad",DC Fast,20.95,29.7,2026-03-27 18:39:00
+EVS0385,ST008,"Green Park, Delhi",DC Fast,26.48,41.7,2026-02-28 01:45:00
+EVS0386,ST003,"Tech Park, Gurugram",DC Fast,38.87,74.5,2026-02-08 05:50:00
+EVS0387,ST001,"Central Mall, Delhi",AC Level 2,20.87,122.9,2026-01-21 22:22:00
+EVS0388,ST005,"Airport Road, Delhi",AC Level 2,15.45,113.4,2026-01-23 15:08:00
+EVS0389,ST005,"Airport Road, Delhi",AC Level 2,14.51,,2026-03-01 10:41:00
+EVS0390,ST002,"Metro Plaza, Noida",DC Fast,42.51,73.7,2026-03-29 17:43:00
+EVS0391,ST006,"University Campus, Noida",AC Level 2,19.78,214.8,2026-01-02 19:37:00
+EVS0392,ST005,"Airport Road, Delhi",DC Fast,21.21,51.7,2026-01-16 18:34:00
+EVS0393,ST005,"Airport Road, Delhi",AC Level 2,16.78,181.6,2026-02-13 17:17:00
+EVS0394,ST001,"Central Mall, Delhi",DC Fast,41.94,50.7,2026-01-14 17:42:00
+EVS0395,ST002,"Metro Plaza, Noida",AC Level 2,15.33,174.6,2026-03-27 06:10:00
+EVS0396,ST004,"City Centre, Ghaziabad",DC Fast,28.03,64.0,2026-02-12 04:48:00
+EVS0397,ST006,"University Campus, Noida",AC Level 2,18.29,156.5,2026-03-03 08:07:00
+EVS0398,ST008,"Green Park, Delhi",AC Level 2,22.24,224.8,2026-03-02 14:11:00
+EVS0399,ST007,"High Street, Faridabad",AC Level 2,23.01,149.7,2026-03-18 08:20:00
+EVS0400,ST008,"Green Park, Delhi",AC Level 2,19.49,148.5,2026-01-30 16:46:00
+EVS0401,ST008,"Green Park, Delhi",AC Level 2,10.66,130.9,2026-02-11 10:31:00
+EVS0402,ST003,"Tech Park, Gurugram",DC Fast,55.39,39.6,2026-03-10 18:36:00
+EVS0403,ST003,"Tech Park, Gurugram",AC Level 2,21.68,114.8,2026-01-20 21:57:00
+EVS0404,ST002,"Metro Plaza, Noida",AC Level 2,4.2,166.6,2026-01-17 17:13:00
+EVS0405,ST008,"Green Park, Delhi",AC Level 2,27.74,168.6,2026-03-10 06:25:00
+EVS0406,ST007,"High Street, Faridabad",AC Level 2,27.53,155.3,2026-01-29 10:43:00
+EVS0407,ST005,"Airport Road, Delhi",DC Fast,51.14,40.5,2026-01-16 17:51:00
+EVS0408,ST006,"University Campus, Noida",AC Level 2,17.89,134.1,2026-03-22 14:55:00
+EVS0409,ST007,"High Street, Faridabad",DC Ultra-Fast,53.75,28.5,2026-03-16 09:16:00
+EVS0410,ST002,"Metro Plaza, Noida",DC Ultra-Fast,90.12,20.3,2026-02-17 07:49:00
+EVS0411,ST008,"Green Park, Delhi",AC Level 2,13.12,96.5,2026-02-17 19:05:00
+EVS0412,ST006,"University Campus, Noida",DC Fast,42.84,537.0,2026-02-16 14:22:00
+EVS0413,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,46.08,42.9,2026-03-13 18:06:00
+EVS0414,ST007,"High Street, Faridabad",DC Fast,48.19,50.0,2026-03-24 10:31:00
+EVS0415,ST001,"Central Mall, Delhi",DC Fast,35.48,50.9,2026-01-15 09:23:00
+EVS0416,ST006,"University Campus, Noida",AC Level 2,18.17,148.9,2026-01-07 19:47:00
+EVS0417,ST006,"University Campus, Noida",DC Ultra-Fast,33.92,28.0,2026-01-17 10:18:00
+EVS0418,ST003,"Tech Park, Gurugram",AC Level 2,13.28,195.1,2026-02-09 14:12:00
+EVS0419,ST006,"University Campus, Noida",AC Level 2,21.15,126.9,2026-02-21 15:09:00
+EVS0420,ST008,"Green Park, Delhi",DC Ultra-Fast,45.45,32.2,2026-02-08 09:19:00
+EVS0421,ST003,"Tech Park, Gurugram",DC Fast,34.15,56.3,2026-02-09 13:17:00
+EVS0422,ST002,"Metro Plaza, Noida",DC Fast,38.32,50.3,2026-01-09 13:55:00
+EVS0423,ST004,"City Centre, Ghaziabad",AC Level 2,,147.9,2026-02-06 20:43:00
+EVS0424,ST007,"High Street, Faridabad",DC Fast,23.27,61.0,2026-03-17 17:38:00
+EVS0425,ST004,"City Centre, Ghaziabad",AC Level 2,21.23,143.6,2026-03-23 19:32:00
+EVS0426,ST007,"High Street, Faridabad",AC Level 2,22.64,102.8,2026-03-25 09:41:00
+EVS0427,ST008,"Green Park, Delhi",AC Level 2,20.26,190.8,2026-01-29 19:01:00
+EVS0428,ST001,"Central Mall, Delhi",DC Fast,34.89,44.4,2026-02-03 22:56:00
+EVS0429,ST008,"Green Park, Delhi",DC Ultra-Fast,62.81,24.7,2026-03-03 11:48:00
+EVS0430,ST007,"High Street, Faridabad",DC Ultra-Fast,43.69,27.3,2026-01-07 04:29:00
+EVS0431,ST007,"High Street, Faridabad",DC Fast,24.69,56.6,2026-02-17 16:48:00
+EVS0432,ST005,"Airport Road, Delhi",DC Fast,26.23,76.7,2026-03-01 17:39:00
+EVS0433,ST008,"Green Park, Delhi",AC Level 2,13.21,86.7,2026-01-30 11:22:00
+EVS0434,ST005,"Airport Road, Delhi",DC Fast,29.0,40.9,2026-01-22 12:25:00
+EVS0435,ST006,"University Campus, Noida",DC Fast,32.94,54.1,2026-03-26 16:38:00
+EVS0436,ST003,"Tech Park, Gurugram",AC Level 2,17.2,148.1,2026-01-27 18:25:00
+EVS0437,ST006,"University Campus, Noida",AC Level 2,,139.8,2026-01-08 18:23:00
+EVS0438,ST005,"Airport Road, Delhi",DC Fast,62.73,32.6,2026-01-24 17:05:00
+EVS0439,ST005,"Airport Road, Delhi",DC Ultra-Fast,49.87,29.9,2026-01-21 07:53:00
+EVS0440,ST007,"High Street, Faridabad",AC Level 2,14.86,106.5,2026-02-21 17:52:00
+EVS0441,ST001,"Central Mall, Delhi",DC Fast,40.02,26.3,2026-03-09 13:40:00
+EVS0442,ST001,"Central Mall, Delhi",DC Fast,42.35,41.9,2026-01-15 16:41:00
+EVS0443,ST003,"Tech Park, Gurugram",AC Level 2,27.55,173.1,2026-01-28 18:20:00
+EVS0444,ST004,"City Centre, Ghaziabad",AC Level 2,9.25,143.7,2026-01-03 21:04:00
+EVS0445,ST002,"Metro Plaza, Noida",DC Ultra-Fast,39.07,29.2,2026-01-21 15:33:00
+EVS0446,ST007,"High Street, Faridabad",AC Level 2,17.5,182.2,2026-01-09 21:59:00
+EVS0447,ST006,"University Campus, Noida",AC Level 2,14.64,201.5,2026-03-08 16:09:00
+EVS0448,ST007,"High Street, Faridabad",AC Level 2,29.45,97.7,2026-01-22 11:11:00
+EVS0449,ST005,"Airport Road, Delhi",DC Fast,21.88,55.7,2026-02-06 19:34:00
+EVS0450,ST006,"University Campus, Noida",AC Level 2,17.32,170.0,2026-02-18 17:40:00
+EVS0451,ST006,"University Campus, Noida",AC Level 2,16.71,119.5,2026-01-26 17:39:00
+EVS0452,ST003,"Tech Park, Gurugram",DC Ultra-Fast,19.32,15.1,2026-03-13 21:31:00
+EVS0453,ST005,"Airport Road, Delhi",DC Fast,41.2,34.6,2026-02-24 14:30:00
+EVS0454,ST004,"City Centre, Ghaziabad",AC Level 2,19.49,136.2,2026-01-05 16:31:00
+EVS0455,ST002,"Metro Plaza, Noida",AC Level 2,8.71,175.1,2026-03-29 08:29:00
+EVS0456,ST004,"City Centre, Ghaziabad",DC Fast,69.34,57.0,2026-01-05 06:02:00
+EVS0457,ST002,"Metro Plaza, Noida",AC Level 2,13.77,143.2,2026-01-06 13:46:00
+EVS0458,ST001,"Central Mall, Delhi",DC Fast,16.11,35.9,2026-03-02 15:02:00
+EVS0459,ST007,"High Street, Faridabad",DC Fast,21.39,60.0,2026-01-19 08:52:00
+EVS0460,ST003,"Tech Park, Gurugram",DC Fast,10.75,60.1,2026-02-01 15:27:00
+EVS0461,ST005,"Airport Road, Delhi",DC Fast,37.08,40.1,2026-03-11 23:09:00
+EVS0462,ST002,"Metro Plaza, Noida",AC Level 2,8.4,105.6,2026-03-17 22:12:00
+EVS0463,ST001,"Central Mall, Delhi",DC Fast,36.37,40.4,2026-03-26 19:27:00
+EVS0464,ST002,"Metro Plaza, Noida",AC Level 2,14.11,86.0,2026-02-03 18:39:00
+EVS0465,ST001,"Central Mall, Delhi",DC Fast,32.96,46.2,2026-02-26 16:18:00
+EVS0466,ST003,"Tech Park, Gurugram",DC Fast,15.02,64.5,2026-01-01 20:21:00
+EVS0467,ST006,"University Campus, Noida",AC Level 2,28.08,213.2,2026-02-03 14:12:00
+EVS0468,ST006,"University Campus, Noida",DC Fast,47.23,40.2,2026-02-21 16:01:00
+EVS0469,ST004,"City Centre, Ghaziabad",DC Fast,36.21,49.2,2026-01-06 13:44:00
+EVS0470,ST002,"Metro Plaza, Noida",AC Level 2,30.54,154.5,2026-03-26 18:40:00
+EVS0471,ST005,"Airport Road, Delhi",DC Fast,16.84,58.0,2026-03-25 19:27:00
+EVS0472,ST003,"Tech Park, Gurugram",AC Level 2,12.35,146.2,2026-02-22 12:52:00
+EVS0473,ST004,"City Centre, Ghaziabad",DC Fast,35.03,67.8,2026-03-13 17:13:00
+EVS0474,ST003,"Tech Park, Gurugram",AC Level 2,14.24,81.6,2026-03-01 21:14:00
+EVS0475,ST008,"Green Park, Delhi",AC Level 2,12.88,146.7,2026-01-23 08:31:00
+EVS0476,ST006,"University Campus, Noida",DC Fast,52.09,53.1,2026-01-15 13:27:00
+EVS0477,ST002,"Metro Plaza, Noida",AC Level 2,14.99,187.6,2026-03-16 13:52:00
+EVS0478,ST004,"City Centre, Ghaziabad",DC Ultra-Fast,45.24,29.9,2026-01-05 18:54:00
+EVS0479,ST007,"High Street, Faridabad",AC Level 2,4.62,155.4,2026-02-11 23:31:00
+EVS0480,ST003,"Tech Park, Gurugram",AC Level 2,23.99,174.0,2026-01-13 10:45:00
+EVS0481,ST003,"Tech Park, Gurugram",DC Ultra-Fast,51.23,13.6,2026-03-20 12:04:00
+EVS0482,ST002,"Metro Plaza, Noida",AC Level 2,15.89,36.4,2026-01-29 08:33:00
+EVS0483,ST002,"Metro Plaza, Noida",AC Level 2,18.66,180.1,2026-01-29 09:31:00
+EVS0484,ST008,"Green Park, Delhi",AC Level 2,21.93,193.3,2026-01-04 05:53:00
+EVS0485,ST005,"Airport Road, Delhi",DC Ultra-Fast,43.1,49.3,2026-01-18 18:59:00
+EVS0486,ST001,"Central Mall, Delhi",DC Fast,48.39,35.8,2026-01-27 15:53:00
+EVS0487,ST002,"Metro Plaza, Noida",AC Level 2,17.73,129.0,2026-01-28 18:49:00
+EVS0488,ST007,"High Street, Faridabad",AC Level 2,19.75,116.5,2026-01-04 18:20:00
+EVS0489,ST001,"Central Mall, Delhi",DC Fast,49.61,77.4,2026-02-23 17:19:00
+EVS0490,ST003,"Tech Park, Gurugram",AC Level 2,24.64,97.3,2026-03-17 09:58:00
+EVS0491,ST005,"Airport Road, Delhi",AC Level 2,12.02,111.4,2026-01-17 17:46:00
+EVS0492,ST006,"University Campus, Noida",AC Level 2,14.35,141.9,2026-03-16 03:21:00
+EVS0493,ST002,"Metro Plaza, Noida",DC Ultra-Fast,55.9,18.5,2026-01-16 09:12:00
+EVS0494,ST007,"High Street, Faridabad",AC Level 2,26.21,130.8,2026-03-05 19:14:00
+EVS0495,ST005,"Airport Road, Delhi",DC Fast,40.82,63.8,2026-01-13 07:32:00
+EVS0496,ST008,"Green Park, Delhi",DC Fast,40.64,42.3,2026-02-06 17:00:00
+EVS0497,ST004,"City Centre, Ghaziabad",AC Level 2,19.34,173.2,2026-01-02 16:37:00
+EVS0498,ST003,"Tech Park, Gurugram",AC Level 2,11.15,204.2,2026-03-20 14:20:00
+EVS0499,ST002,"Metro Plaza, Noida",AC Level 2,13.01,201.2,2026-02-20 00:43:00
+EVS0500,ST007,"High Street, Faridabad",DC Ultra-Fast,29.06,16.1,2026-03-06 19:04:00
+EVS0025,ST001,"Central Mall, Delhi",AC Level 2,29.21,150.5,2026-02-24 21:55:00
+EVS0138,ST001,"Central Mall, Delhi",AC Level 2,15.1,200.9,2026-02-26 13:44:00
+EVS0323,ST008,"Green Park, Delhi",AC Level 2,15.88,141.9,2026-02-24 21:20:00
