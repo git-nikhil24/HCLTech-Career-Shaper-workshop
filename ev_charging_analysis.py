@@ -104,3 +104,55 @@ def clean_data(df):
     heading("3. DATA CLEANING ACTIONS")
     cleaned = df.copy()
     log = []
+
+# Rule 1 - duplicates
+    before = len(cleaned)
+    cleaned = cleaned.drop_duplicates(subset="Session_ID", keep="first").reset_index(drop=True)
+    log.append(f"Removed {before - len(cleaned)} duplicate Session_ID rows (kept first).")
+
+    # Rule 2 - group-wise median imputation
+    for col in ("Energy_kWh", "Charging_Duration_Mins"):
+        n_missing = cleaned[col].isnull().sum()
+        if n_missing:
+            group_median = cleaned.groupby("Charger_Type")[col].transform("median")
+            cleaned[col] = cleaned[col].fillna(group_median)
+            cleaned[col] = cleaned[col].fillna(cleaned[col].median())  # safety fallback
+        log.append(f"Imputed {n_missing} missing {col} values using Charger_Type median.")
+
+    # Rule 3 - datetime conversion (FR-2.1): invalid values identified, not silently misread
+    cleaned["Charging_Start_Time"] = pd.to_datetime(cleaned["Charging_Start_Time"], errors="coerce")
+    bad_time = cleaned["Charging_Start_Time"].isnull().sum()
+    log.append(f"Invalid/missing timestamps found: {bad_time} "
+               f"(excluded from time-based analysis only).")
+
+    for line in log:
+        print("-", line)
+    print(f"\nRecords after cleaning: {len(cleaned)}")
+    return cleaned
+
+
+# --------------------------------------------------------------------------
+# MODULE 2: TIME PROCESSING AND CORE ANALYTICS
+# --------------------------------------------------------------------------
+def add_time_features(df):
+    """FR-2.2: hour, weekday, month from valid datetimes."""
+    df = df.copy()
+    ts = df["Charging_Start_Time"]
+    df["Hour"] = ts.dt.hour
+    df["Weekday"] = ts.dt.day_name()
+    df["Month"] = ts.dt.month_name()
+    return df
+
+
+def overall_summary(df):
+    """FR-2.3 & FR-2.4 [OUT-2]."""
+    heading("4. OVERALL SUMMARY  [OUT-2]")
+    total_sessions = len(df)
+    total_energy = df["Energy_kWh"].sum()
+    avg_duration = df["Charging_Duration_Mins"].mean()
+    avg_energy = df["Energy_kWh"].mean()
+    print(f"Total charging sessions          : {total_sessions}")
+    print(f"Total energy delivered           : {total_energy:,.2f} kWh")
+    print(f"Average charging duration        : {avg_duration:.2f} minutes")
+    print(f"Average energy per session       : {avg_energy:.2f} kWh")
+    return total_sessions, total_energy, avg_duration, avg_energy
