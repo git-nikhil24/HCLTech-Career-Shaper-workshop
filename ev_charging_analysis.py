@@ -247,3 +247,53 @@ def numpy_statistics(df):
     print(f"90th percentile      : {p90_d:.2f} minutes")
     print("(Mean > median indicates a right-skewed distribution driven by long sessions.)")
     return durations, mean_d, median_d, p90_d
+
+def detect_outliers(df, durations):
+    """FR-3.4: IQR method. Outliers are flagged and reported, NOT deleted (SRS 3.4)."""
+    heading("10. UNUSUALLY LONG SESSIONS (IQR METHOD)  [OUT-4]")
+    q1, q3 = np.percentile(durations, [25, 75])
+    iqr = q3 - q1
+    upper = q3 + 1.5 * iqr
+    print(f"Q1 = {q1:.2f}   Q3 = {q3:.2f}   IQR = {iqr:.2f}")
+    print(f"Upper fence (Q3 + 1.5 x IQR) = {upper:.2f} minutes")
+
+    df = df.copy()
+    df["Is_Long_Session"] = df["Charging_Duration_Mins"] > upper
+    n_out = int(df["Is_Long_Session"].sum())
+    print(f"Sessions flagged as unusually long: {n_out} "
+          f"({n_out / len(df) * 100:.1f}% of sessions)")
+    if n_out:
+        print("\nBreakdown of flagged sessions by charger type:")
+        print(df.loc[df["Is_Long_Session"], "Charger_Type"].value_counts().to_string())
+        print("\nBreakdown of flagged sessions by station:")
+        print(df.loc[df["Is_Long_Session"], "Station_ID"].value_counts().to_string())
+    return df, upper, n_out
+
+
+def duration_groups(df):
+    """FR-3.5: Short / Medium / Long groups with documented thresholds."""
+    heading("11. DURATION GROUPS  [OUT-4]")
+    print(f"Short : < {SHORT_MAX} min | Medium : {SHORT_MAX}-{MEDIUM_MAX} min | Long : > {MEDIUM_MAX} min")
+    df = df.copy()
+    df["Duration_Group"] = pd.cut(
+        df["Charging_Duration_Mins"],
+        bins=[-np.inf, SHORT_MAX - 1e-9, MEDIUM_MAX, np.inf],
+        labels=["Short", "Medium", "Long"],
+    )
+    counts = df["Duration_Group"].value_counts().reindex(["Short", "Medium", "Long"])
+    pct = (counts / len(df) * 100).round(1)
+    print(pd.DataFrame({"Sessions": counts, "Percent": pct}).to_string())
+    return df
+
+
+class ChargingSession:
+    """FR-3.6: simple class representing one charging session."""
+
+    def __init__(self, session_id, station, energy):
+        self.session_id = session_id
+        self.station = station
+        self.energy = energy
+
+    def __str__(self):
+        return (f"ChargingSession(ID={self.session_id}, Station={self.station}, "
+                f"Energy={self.energy:.2f} kWh)")
