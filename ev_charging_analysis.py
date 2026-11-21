@@ -360,3 +360,57 @@ def generate_recommendations(df, stations, charger_comp, peak_hour, busiest_day,
     for i, r in enumerate(recs, 1):
         print(f"{i}. {r}\n")
     return recs
+
+# --------------------------------------------------------------------------
+# OPTIONAL CHARTS
+# --------------------------------------------------------------------------
+def make_charts(hour_counts, day_counts, charger_comp, stations):
+    try:
+        import matplotlib.pyplot as plt
+    except ImportError:
+        print("Matplotlib not installed - skipping charts.")
+        return
+    fig, ax = plt.subplots(2, 2, figsize=(13, 9))
+    hour_counts.plot(kind="bar", ax=ax[0, 0], color="teal", title="Sessions by Hour of Day")
+    day_counts.plot(kind="bar", ax=ax[0, 1], color="orange", title="Sessions by Weekday")
+    charger_comp["Avg_Duration_Mins"].plot(kind="bar", ax=ax[1, 0], color="purple",
+                                           title="Avg Duration by Charger Type (min)")
+    stations.set_index("Station_ID")["Total_Energy_kWh"].plot(
+        kind="bar", ax=ax[1, 1], color="green", title="Total Energy by Station (kWh)")
+    plt.tight_layout()
+    plt.show()
+
+
+# --------------------------------------------------------------------------
+# MAIN
+# --------------------------------------------------------------------------
+def main():
+    path = sys.argv[1] if len(sys.argv) > 1 else CSV_PATH
+
+    raw = load_data(path)                 # FR-1.1 (raw data is never overwritten)
+    inspect_data(raw)                     # FR-1.2
+    data_quality_report(raw)              # FR-1.3, FR-1.4
+    df = clean_data(raw)                  # FR-1.5
+    df = add_time_features(df)            # FR-2.1, FR-2.2
+
+    overall_summary(df)                   # FR-2.3, FR-2.4
+    stations = station_ranking(df)        # FR-2.5
+    charger_comp = charger_comparison(df) # FR-2.6
+    location_comparison(df)               # FR-2.8
+    peak_hour, busiest_day, hour_counts, day_counts = demand_patterns(df)  # FR-2.7
+
+    durations, *_ = numpy_statistics(df)  # FR-3.3
+    df, upper, n_out = detect_outliers(df, durations)  # FR-3.4
+    df = duration_groups(df)              # FR-3.5
+    class_and_function_demo(df)           # FR-3.1, 3.2, 3.6
+    generate_recommendations(df, stations, charger_comp, peak_hour,
+                             busiest_day, n_out, upper)  # FR-3.7
+
+    if SHOW_CHARTS:
+        make_charts(hour_counts, day_counts, charger_comp, stations)
+
+    print("\nNote: the dataset is synthetic; all findings describe this sample only.")
+
+
+if __name__ == "__main__":
+    main()
